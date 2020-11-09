@@ -16,8 +16,8 @@ services:
         environment:
          - config_path="/etc/mumble/config.ini"
         ports:
-         - "64738:64378/tcp"
-         - "64738:64378/udp"
+         - "64738:64738/tcp"
+         - "64738:64738/udp"
 ```
 ### Docker Run
 ```
