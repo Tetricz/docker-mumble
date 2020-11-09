@@ -1,5 +1,5 @@
 #!/bin/sh
-if [[ -f "${config_path}" ]];
+if [[ -f ${config_path} ]];
     then
         /opt/mumble/murmur.x86 -fg -ini ${config_path}
     else
