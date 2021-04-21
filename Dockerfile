@@ -1,7 +1,7 @@
-FROM alpine:3.12
+FROM alpine:3.13
 LABEL maintainer="github.com/Tetricz"
 
-ARG mumble_version="1.3.3"
+ARG mumble_version="1.3.4"
 ARG URL="https://github.com/mumble-voip/mumble/releases/download/${mumble_version}/murmur-static_x86-${mumble_version}.tar.bz2"
 
 ENV config_path="/etc/mumble/config.ini"
